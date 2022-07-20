@@ -1,0 +1,418 @@
+/* common style and utilites */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+header,
+main {
+    padding: 0 5%;
+}
+
+/* banner part start code */
+.banner {
+    transition: all;
+    transition-duration: 4s;
+}
+
+.banner:hover {
+    box-shadow: 20px 20px 30px rgb(156, 109, 109);
+    border-radius: 50px;
+}
+
+.player-title {
+    display: flex;
+    align-items: center;
+    background-color: #51a7a7ab;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.banner-title {
+    padding: 111px 2px 111px 106px;
+}
+
+.title-size {
+    color: #552222;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    transition: all;
+    transition-duration: 3s;
+}
+
+.title-size:hover {
+    color: rgb(185, 68, 68);
+}
+
+.color-white {
+    color: #552222;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #DD0000;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid rgb(185, 185, 118);
+    padding: 15px 19px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.player-img {
+    width: 581px;
+}
+
+.player-img img {
+    width: 100%;
+}
+
+/* banner part end code */
+
+/* main menubar and blog part start code */
+.menu-bar {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.menu-list {
+    text-align: center;
+    width: 252px;
+    height: 64px;
+    padding: 25px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+#a {
+    background-color: #DD0000;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#a:hover {
+    box-shadow: 5px 5px 20px red;
+}
+
+#b {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#b:hover {
+    box-shadow: 5px 5px 20px red;
+}
+
+#c {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#c:hover {
+    box-shadow: 5px 5px 20px rgb(105, 104, 104);
+}
+
+.container {
+    display: flex;
+    column-gap: 23px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.flag-box {
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.flag-box:hover {
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+}
+
+.flag {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.flag-imag img {
+    width: 100%;
+}
+
+.titel {
+    text-align: center;
+}
+
+.titel h3 {
+    color: #161616;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.titel p {
+    color: #161616b3;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+
+/* view all btn decsktop device hide only tab device show */
+
+.view-all {
+    display: flex;
+    display: none;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #DD0000;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+
+.view-all a:hover {
+    background-color: #a38b8b;
+}
+
+/* footer code start */
+
+footer {
+    margin-top: 100px;
+    background-color: #161616;
+}
+
+footer h3 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer h3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer h3 a:hover {
+    color: #dd0000;
+}
+
+hr {
+    margin: 0 7%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1 px solid rgba(255, 255, 255, 0.31);
+}
+
+.flex-tag {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.flex-tag a {
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.flex-tag a:hover {
+    color: #dd0000;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-icon a {
+    color: #FFFFFF;
+}
+
+.footer-icon a:hover {
+    color: #dd0000;
+}
+
+/* media query start code */
+
+/* media query for small scree device */
+/* banner section */
+
+@media only screen and (max-width: 676px) {
+    .player-title {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .banner-title {
+        padding: 28px 38px 21px 38px;
+        text-align: center;
+    }
+
+    .player-img {
+        padding: 0 20px;
+    }
+
+    .title-size {
+        font-size: 22px;
+    }
+
+    .color-white {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 16px;
+    }
+
+    .btn:hover {
+        padding: 9px 15px;
+    }
+
+    /* main conter section */
+
+    .container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .menu-bar {
+        background-color: #ffffff;
+        margin: 24px auto;
+    }
+
+    article {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    /* main container section end */
+
+    /* footer section code */
+
+    .flex-tag {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* media query for mediup devices */
+
+@media only screen and (min-width: 676px) and (max-width: 992px) {
+    .player-title {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .banner-title {
+        align-items: center;
+        padding: 30px 2px 30px 60px;
+    }
+
+    .player-img {
+        width: 100%;
+        padding: 30px 60px 30px 3px;
+    }
+
+    .title-size {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .color-white {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+
+    .btn:hover {
+        padding: 11px 19px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .menu-bar {
+        display: flex;
+        height: auto;
+        width: auto;
+        background-color: #ffffff;
+        gap: 22px
+    }
+
+    article {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .view-all {
+        display: flex;
+    }
+
+    .flex-tag {
+        flex-wrap: wrap;
+    }
+
+}
