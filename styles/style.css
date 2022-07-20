@@ -45,7 +45,7 @@ main {
 
 .title-size {
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 15px;
     transition: all;
@@ -84,7 +84,7 @@ main {
 }
 
 .player-img {
-    width: 581px;
+    padding: 33px 80px 0px 2px;
 }
 
 .player-img img {
@@ -323,7 +323,7 @@ hr {
     }
 
     .title-size {
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .color-white {
@@ -367,7 +367,7 @@ hr {
 
 /* media query for mediup devices */
 
-@media only screen and (min-width: 676px) and (max-width: 992px) {
+@media only screen and (min-width: 677px) and (max-width: 992px) {
     .player-title {
         flex-direction: row;
         align-items: center;

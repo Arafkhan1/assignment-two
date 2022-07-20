@@ -45,7 +45,7 @@ main {
 
 .title-size {
     color: #552222;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 15px;
     transition: all;
@@ -84,7 +84,7 @@ main {
 }
 
 .player-img {
-    width: 581px;
+    padding: 33px 80px 0px 2px;
 }
 
 .player-img img {
