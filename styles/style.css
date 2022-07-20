@@ -125,7 +125,7 @@ main {
 }
 
 #a:hover {
-    box-shadow: 5px 5px 20px red;
+    box-shadow: 5px 5px 20px #69686e;
 }
 
 #b {
@@ -135,7 +135,7 @@ main {
 }
 
 #b:hover {
-    box-shadow: 5px 5px 20px red;
+    box-shadow: 5px 5px 20px #696868;
 }
 
 #c {
@@ -144,7 +144,7 @@ main {
 }
 
 #c:hover {
-    box-shadow: 5px 5px 20px rgb(105, 104, 104);
+    box-shadow: 5px 5px 20px #696868;
 }
 
 .container {

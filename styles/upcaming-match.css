@@ -152,6 +152,7 @@ main {
     column-gap: 23px;
 }
 
+/* flag card code start */
 article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
