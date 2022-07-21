@@ -84,7 +84,8 @@ main {
 }
 
 .player-img {
-    padding: 33px 80px 0px 2px;
+    /* padding: 33px 80px 0px 2px; */
+    width: 50%;
 }
 
 .player-img img {
